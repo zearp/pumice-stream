@@ -1,0 +1,18 @@
+#!/bin/bash
+#
+
+# hacky firstboot, only runs when liveuser does not exist
+#
+if getent passwd "liveuser" &>/dev/null; then
+	touch /tmp/we-are-live
+else
+	tuned-adm profile desktop
+	grubby --update-kernel=ALL --args="thunderbolt.host_reset=0" --remove-args="crashkernel=auto"
+	dnf -y remove anaconda\* dracut-live kdump-utils kexec-tools livesys-scripts
+#	rpm -i /root/elrepo-release-10.el10.elrepo.noarch.rpm && rm /root/elrepo-release-10.el10.elrepo.noarch.rpm
+#	dnf -y config-manager --set-enabled crb elrepo elrepo-extras elrepo-kernel epel
+	systemctl mask kdump.service # service removed above, masked for the future
+	touch /tmp/hello-goodbye && rm /etc/rc.d/rc.local
+fi
+
+exit 0
