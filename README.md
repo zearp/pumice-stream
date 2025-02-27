@@ -5,7 +5,7 @@ By default you'll get a very basic Gnome install. I use this as a daily driver o
 
 I've included a lot of firmware packages --which could be removed to save space-- and the kernel should have drivers for most hardware. 
 
-I use Flatpak a lot so there are not many default apps installed. Just use the store to install what you need. Both ```epel``` and el repo``` repositories have been enabled.
+I use Flatpak a lot so there are not many default apps installed. Just use the store to install what you need. Both ```epel``` and ```el repo``` repositories have been enabled.
 
 For Gnome extentions I suggest using the Gnome extention manager app found on Flathub to manage them.
 
