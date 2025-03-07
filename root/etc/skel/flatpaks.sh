@@ -7,7 +7,6 @@ sudo flatpak install \
 	com.usebottles.bottles \
 	org.gnome.DejaDup \
 	org.gnome.Epiphany \
-	org.gnome.Papers \
 	org.gnome.Weather \
 	de.haeckerfelix.Fragments \
 	io.gitlab.librewolf-community
