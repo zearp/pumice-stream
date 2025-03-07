@@ -1,9 +1,11 @@
 # Pumice Stream
 Pumice based on CentOS Stream, blatantly stolen from: [CentOS's alt images special interest gropup (sig-alt-images)](https://pagure.io/centos-sig-alt-images/kiwi-descriptions). A customised CentOS Stream install to my liking and for you to use, modify and make into your own.
 
-By default you'll get a very basic Gnome install. I use this as a daily driver on a bunch of systems. It should work out of the box on most hardware. Dark mode is enabled by default and Cockpit is installed as well.
+By default you'll get a very basic Gnome install. I use this as a daily driver on a bunch of systems.
 
-I've included a lot of firmware packages --which could be removed to save space-- and the kernel should have drivers for most hardware. 
+It should work out of the box on most hardware. I've included a lot of firmware packages --which could be removed to save space-- and the kernel should have drivers for most hardware. 
+
+Dark mode is enabled by default and Cockpit is installed as well. Open ```https://localhost:9090``` in a browser post-install to easily manage the system or virtual machines and such.
 
 I use Flatpak a lot so there are not many default apps installed. Just use the store to install what you need. Both ```epel``` and ```el repo``` repositories have been enabled.
 
