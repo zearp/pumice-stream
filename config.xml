@@ -145,7 +145,7 @@
 		<package name="filesystem"/>
 	</packages>
 	<preferences profiles="Pumice">
-		<type image="iso" publisher="Pumice" volid="Pumice" primary="true" flags="dmsquash" filesystem="erofs" erofscompression="lzma,level=9" firmware="uefi" efifatimagesize="30" kernelcmdline="quiet rhgb inst.kdump_addon=off inst.geoloc=0 inst.keymap=us">
+		<type image="iso" publisher="Pumice" volid="Pumice" primary="true" flags="dmsquash" filesystem="erofs" erofscompression="lzma,level=9" firmware="uefi" efifatimagesize="30" kernelcmdline="quiet rhgb inst.kdump_addon=off inst.geoloc=0">
 			<bootloader name="grub2" grub_template="grub.template" console="console" timeout="60"/>
 		</type>
 	</preferences>
