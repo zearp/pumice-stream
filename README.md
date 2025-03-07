@@ -11,7 +11,9 @@ I use Flatpak a lot so there are not many default apps installed. Just use the s
 
 For Gnome extentions I suggest using the Gnome extention manager app found on Flathub to manage them.
 
-Building will be very straight forward on any ```dnf``` system and on most other distro's as well, all you need is ```podman```. On other platforms like macOS and Windows it is possible too but out of the scope for me. I've tested this on Redhat 9/10-beta, CentOS Stream 10, Alma 9/10-beta and Rocky 9 without issues. I'm very impressed with ```kiwi``` and how easy it is to build an almost spin worthy customised iso in minutes. 
+Building will be very straight forward on any ```dnf``` system and on most other distro's as well, all you need is ```podman```.
+
+On other platforms like macOS and Windows it is possible too but out of the scope for me. I've tested this on Redhat 9/10-beta, CentOS Stream 10, Alma 9/10-beta and Rocky 9 without issues. I'm very impressed with ```kiwi``` and how easy it is to build an almost spin worthy customised iso in minutes. 
 
 ## Initial setup:
 ```
