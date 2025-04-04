@@ -43,7 +43,7 @@ dnf -y install epel-release && dnf -y install kiwi policycoreutils && dnf -y --r
 kiwi-ng --type=iso --profile="Pumice" --color-output system build --description="." --target-dir ./outdir
 ```
 
-> You can track progress by tailing the log file in another terminal: ```tail -f outdir/outdir/build/image-root.log```
+> You can track progress by tailing the log file in another terminal: ```tail -f outdir/build/image-root.log```
 
 ## Finishing up:
 Exit with ```exit``` and copy the generated image from ```outdir```.
