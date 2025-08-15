@@ -63,7 +63,8 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 
 # dnf stuff
 #
-dnf -y config-manager --set-enabled crb elrepo elrepo-extras elrepo-kernel epel
+dnf -y config-manager --set-disabled elrepo elrepo-extras elrepo-kernel
+dnf -y config-manager --set-enabled crb epel
 dnf -y --refresh update && dnf clean all && dnf makecache
 
 exit 0
